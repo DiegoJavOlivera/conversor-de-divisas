@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: darkgreen ;
+}
+
+h2{
+    margin: 100px;
+    font-size: 100px;
+}
+
+#uno{
+    width: 50px;
+    height: 30px;
+}
+
+#dos{
+    width: 50px;
+    height: 30px;
+}
+
+#cotizador{
+    background-color: white;
+    color: black;
+}
+#cotizador:hover{
+    background-color: gold;
+    color: black;
+    transition: 0.9s ease-in-out;
+}
+
+h3{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.formulario{
+    font-size: xx-large;
+}
+
+p{
+    font-size: 70px;
+    margin: 15px;
+}
+
+input{
+    font-size: 50px;
+
+}
+
+@media (max-width: 768px){ 
+    
+    h2{
+        margin: 50px;
+        font-size: 50px;
+    }
+    
+}
+
+
+
+
